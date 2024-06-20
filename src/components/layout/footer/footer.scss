@@ -1,0 +1,13 @@
+.footer {
+    padding: 30px 0px;
+    &__links {
+        padding: 10px;
+        justify-content: space-between;
+    }
+
+    &__desc {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+}

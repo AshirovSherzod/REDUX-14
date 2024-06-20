@@ -1,0 +1,33 @@
+.sidebar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height: 100vh;
+    background-color: #3E59A6;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    &__logo {
+        padding-left: 15px;
+        color: #fff;
+    }
+
+    &__links {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        a {
+            padding: 15px;
+            color: #fff;
+        }
+
+        .active {
+            padding: 13px;
+            border-left: 2px solid #fff;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+    }
+}

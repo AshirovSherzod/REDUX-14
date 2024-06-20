@@ -1,0 +1,42 @@
+.form {
+    padding: 50px;
+    border: 1px solid #3E59A6;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    margin-top: 230px;
+    gap: 20px;
+    &__wrapper {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        // align-items: center;
+        justify-content: center;
+    }
+
+    &__inputs {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        input {
+            width: 300px;
+            height: 30px;
+            padding-left: 10px;
+            outline: none;
+        }
+    }
+
+    &__btn {
+        display: flex;
+        justify-content: flex-end;
+
+        button {
+            background-color: #3E59A6;
+            border: 1px solid transparent;
+            border-radius: 5px;
+            padding: 7px;
+            color: #fff;
+        }
+    }
+}

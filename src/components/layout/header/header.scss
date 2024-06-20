@@ -1,0 +1,33 @@
+header {
+    background-color: #3E59A6;
+}
+
+.nav {
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    color: #fff;
+
+    &__logo h1 {
+        font-size: 28px;
+    }
+
+    &__links {
+        gap: 50px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 460px) {
+    .nav {
+        padding: 20px;
+        &__links {
+            gap: 10px;
+            font-size: 14px;
+        }
+
+        &__logo h1 {
+            font-size: 20px;
+        }
+    }
+}
